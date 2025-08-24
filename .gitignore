@@ -1,0 +1,56 @@
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+pip-wheel-metadata/
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.cache/
+.venv/
+venv/
+env/
+ENV/
+.python-version
+.ruff_cache/
+.pyre/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- IDE/Editor ---
+.vscode/
+.idea/
+*.code-workspace
+
+# If you want to share VS Code recommended extensions, uncomment:
+# !.vscode/extensions.json
+
+# --- Logs & databases ---
+*.log
+logs/
+*.sqlite3
+*.db
+
+# --- Environment / secrets ---
+.env
+.env.*
+*.env
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# --- Node.js (if frontend is added) ---
+node_modules/
+.npm/
+.yarn/
