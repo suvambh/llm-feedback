@@ -1,7 +1,3 @@
-Here’s a **starter `README.md`** tailored to your project. It explains what the project is, how to run it, and how to use your new CLI tool. You can expand later as the project grows.
-
----
-
 # GPT Journal App
 
 A personal AI dashboard built with **Streamlit** and **OpenAI**, designed to help you:
