@@ -1,0 +1,24 @@
+[project]
+name = "gpt-journal-app"
+version = "0.1.0"
+description = "A personal AI dashboard with feedback, review, and blogpost features."
+authors = [
+    { name = "Your Name", email = "you@example.com" }
+]
+readme = "README.md"
+requires-python = ">=3.9"
+
+# Dependencies your project needs
+dependencies = [
+    "openai>=1.0.0",
+    "streamlit>=1.30.0"
+]
+
+# This creates CLI commands after `pip install -e .`
+[project.scripts]
+llm-correct = "tools.llm_correct:main"
+gpt-journal = "app:main"  # optional: if you want to start streamlit with `gpt-journal`
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
